@@ -1,0 +1,45 @@
+// В этом файле должны быть стили для БЭМ-блока scheme, его элементов,
+// модификаторов, псевдоселекторов, псевдоэлементов, @media-условий...
+// Очередность: http://nicothin.github.io/idiomatic-pre-CSS/#priority
+
+.scheme {
+
+  $block-name:                &; // #{$block-name}__element
+  width: 100%;
+
+  &__title {
+    margin-bottom: 25px;
+    font-size: 24px;
+    line-height: 24px;
+    color: $main-color;
+  }
+
+  &__color-cell {
+    height: 10px;
+    padding: 0;
+    padding-right: 4px;
+
+    &--second {
+      background-color: $second-color;
+    }
+
+    &--first {
+      background-color: $main-color;
+    }
+
+    &--dark {
+      background-color: $dark;
+    }
+    &--light {
+      padding-right: 0;
+      background-color: $gray-light;
+    }
+  }
+
+  &__text-cell {
+    padding-top: 6px;
+    font-size: 12px;
+    line-height: 15px;
+    color: #9A9797;
+  }
+}

@@ -1,9 +1,40 @@
-// В этом файле должны быть стили для БЭМ-блока visual, его элементов, 
+// В этом файле должны быть стили для БЭМ-блока visual, его элементов,
 // модификаторов, псевдоселекторов, псевдоэлементов, @media-условий...
 // Очередность: http://nicothin.github.io/idiomatic-pre-CSS/#priority
 
 .visual {
 
   $block-name:                &; // #{$block-name}__element
+  position: relative;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  &__title {
+    margin-top: -35px;
+    margin-bottom: 23px;
+    font-size: 32px;
+    line-height: 35px;
+    color: $main-color;
+  }
+
+  &__lead {
+
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  &__header {
+    font-size: 24px;
+    line-height: 25px;
+    color: $main-color;
+  }
+
+  &__scheme {
+    margin-top: 44px;
+  }
+
+  &__typography {
+    margin-top: 53px;
+  }
 
 }

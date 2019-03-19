@@ -1,9 +1,26 @@
-// В этом файле должны быть стили для БЭМ-блока devop, его элементов, 
+// В этом файле должны быть стили для БЭМ-блока devop, его элементов,
 // модификаторов, псевдоселекторов, псевдоэлементов, @media-условий...
 // Очередность: http://nicothin.github.io/idiomatic-pre-CSS/#priority
 
 .devop {
 
   $block-name:                &; // #{$block-name}__element
+
+  padding: 33px 20px 0;
+
+  &__title {
+    margin-bottom: 13px;
+    font-size: 32px;
+    line-height: 50px;
+    color: $main-color;
+  }
+
+  &__lead {
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  
 
 }

@@ -1,9 +1,107 @@
-// В этом файле должны быть стили для БЭМ-блока elements, его элементов, 
+// В этом файле должны быть стили для БЭМ-блока elements, его элементов,
 // модификаторов, псевдоселекторов, псевдоэлементов, @media-условий...
 // Очередность: http://nicothin.github.io/idiomatic-pre-CSS/#priority
 
 .elements {
 
   $block-name:                &; // #{$block-name}__element
+  padding: 55px 20px 0;
+
+  &__title {
+    margin-bottom: 13px;
+    font-size: 32px;
+    line-height: 50px;
+    color: $main-color;
+  }
+
+  &__lead {
+    margin-bottom: 16px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  &__cards,
+  &__blocks {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  &__cards {
+    height: 620px;
+    margin-bottom: 33px;
+  }
+
+  &__card {
+    position: absolute;
+    width: 73%;
+    top: 0;
+
+    &--prog {
+      left: -23px;
+    }
+
+    &--met {
+      top: 64px;
+      right: -23px;
+    }
+
+    &--prot {
+      top: 274px;
+      right: 0;
+      z-index: 2;
+    }
+
+    &--lrn {
+      top: 360px;
+      left: -23px;
+    }
+
+  }
+
+
+  &__blocks {
+
+    height: 500px;
+    margin-top: 187px;
+    margin-bottom: 69px;
+  }
+
+  &__block {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    &--spec {
+      top: 7px;
+      left: unset;
+      right: -20px;
+      width: 96%;
+    }
+
+    &--rev {
+      top: 159px;
+      width: 47%;
+      z-index: 2;
+    }
+
+    &--mod {
+      top: 209px;
+      left: unset;
+      right: -12px;
+      width: 76%;
+      z-index: 2;
+    }
+
+    &--stat {
+      top: unset;
+      bottom: -40px;
+      width: 86%;
+      left: 50%;
+      margin-left: -43%;
+      z-index: 1;
+    }
+  }
 
 }
