@@ -52,8 +52,8 @@ let postCssPlugins = [
 
 // Изображения, которые нужно копировать
 let images = [
-  dirs.source + '/img/*.{gif,png,jpg,jpeg,svg,ico}',
-  dirs.source + '/blocks/**/img/*.{gif,png,jpg,jpeg,svg}',
+  dirs.source + '/img/*.{gif,png,jpg,jpeg,svg,ico,svg,webp}',
+  dirs.source + '/blocks/**/img/*.{gif,png,jpg,jpeg,svg,webp}',
   '!' + dirs.source + '/blocks/sprite-png/png/*',
   '!' + dirs.source + '/blocks/sprite-svg/svg/*',
 ];

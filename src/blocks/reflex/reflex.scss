@@ -56,6 +56,20 @@
     font-size: 14px;
     line-height: 20px;
 
+    &::after {
+      content: '';
+      position: absolute;
+      position: absolute;
+      bottom: 223px;
+      right: 0;
+      width: 65px;
+      height: 130px;
+      background-image: url(../img/point__sm.svg);
+      background-position: center;
+      background-size: 100%;
+      background-repeat: no-repeat;
+    }
+
   }
 
 }
