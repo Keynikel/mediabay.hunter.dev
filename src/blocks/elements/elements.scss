@@ -10,6 +10,11 @@
   background-size: cover;
   background-position: center;
 
+  @media (min-width: $screen-sm)  {
+    margin-bottom: 65px;
+    background-image: none;
+  }
+
   &__title {
     margin-bottom: 13px;
     font-size: 32px;
@@ -21,6 +26,10 @@
     margin-bottom: 16px;
     font-size: 14px;
     line-height: 20px;
+
+    @media (min-width: $screen-sm) {
+      max-width: 380px;
+    }
   }
 
   &__cards,
@@ -34,6 +43,10 @@
   &__cards {
     height: 620px;
     margin-bottom: 33px;
+
+    @media (min-width: $screen-sm) {
+      height: 440px;
+    }
   }
 
   &__card {
@@ -41,39 +54,72 @@
     width: 73%;
     top: 0;
 
+    @media (min-width: $screen-sm) {
+      width: auto;
+    }
+
     img {
       width: auto;
       max-height: 300px;
+
+      @media (min-width: $screen-sm) {
+        max-height: none;
+        height: 365px;
+      }
     }
 
     &--prog {
       left: -23px;
+
+      @media (min-width: $screen-sm) {
+        left: -30px;
+      }
     }
 
     &--met {
       top: 64px;
       right: -23px;
+
+      @media (min-width: $screen-sm) {
+        top: 83px;
+        right: unset;
+        left: 127px;
+      }
     }
 
     &--prot {
       top: 274px;
       right: 0;
       z-index: 2;
+
+      @media (min-width: $screen-sm) {
+        top: -96px;
+        right: unset;
+        left: 440px;
+      }
     }
 
     &--lrn {
       top: 360px;
       left: -23px;
+
+      @media (min-width: $screen-sm)  {
+        top: 17px;
+        left: 311px;
+      }
     }
 
   }
 
 
   &__blocks {
-
     height: 500px;
     margin-top: 187px;
     margin-bottom: 69px;
+
+    @media (min-width: $screen-sm) {
+      height: 745px;
+    }
   }
 
   &__block {
@@ -86,12 +132,24 @@
       left: unset;
       right: -20px;
       width: 96%;
+
+      @media (min-width: $screen-sm)  {
+        top: 145px;
+        left: unset;
+        right: 40px;
+        width: 620px;
+      }
     }
 
     &--rev {
       top: 159px;
       width: 47%;
       z-index: 2;
+
+      @media (min-width: $screen-sm) {
+        top: 381px;
+        width: 215px;
+      }
     }
 
     &--mod {
@@ -100,6 +158,13 @@
       right: -12px;
       width: 76%;
       z-index: 2;
+
+      @media (min-width: $screen-sm) {
+        top: 480px;
+        left: unset;
+        right: 112px;
+        width: 386px;
+      }
     }
 
     &--stat {
@@ -109,6 +174,14 @@
       left: 50%;
       margin-left: -43%;
       z-index: 1;
+
+      @media (min-width: $screen-sm) {
+        bottom: -185px;
+        width: 370px;
+        left: unset;
+        margin-left: 0;
+        right: -15px;
+      }
     }
   }
 

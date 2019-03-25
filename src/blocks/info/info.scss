@@ -13,7 +13,8 @@
   background-size: 100%;
   background-repeat: no-repeat;
 
-  &::after {
+  @media (min-width: $screen-sm) {
+    padding-bottom: 100px;
 
   }
 
@@ -22,6 +23,13 @@
     margin-bottom: 32px;
     padding-left: 20px;
     padding-right: 20px;
+    max-width: 375px;
+
+    @media (min-width: $screen-sm) {
+      width: 375px;
+      height: 90px;
+      margin-bottom: 40px;
+    }
   }
 
   &__lead {
@@ -29,6 +37,7 @@
     padding-right: 20px;
     font-size: 14px;
     line-height: 20px;
+    max-width: 380px;
   }
 
 }
