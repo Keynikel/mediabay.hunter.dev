@@ -5,3 +5,10 @@ mixin present()
     a.present__download(href="#" download) Презентация T. Hunter
     div.present__wrapper
       img(src="/img/present.png", alt="Презентация для сайта tomhunter.ru")
+    ul.present__list
+      li.present__item
+        img.present__img.present__img--first-slide(src="/img/slide_1.jpg", alt="Слайд: Компания t.Hunter")
+      li.present__item
+        img.present__img.present__img--second-slide(src="/img/slide_2.jpg", alt="Слайд: Концепция компании")
+    +services()
+    +cooperation()

@@ -1,0 +1,30 @@
+// В этом файле должны быть стили для БЭМ-блока cooperation, его элементов,
+// модификаторов, псевдоселекторов, псевдоэлементов, @media-условий...
+// Очередность: http://nicothin.github.io/idiomatic-pre-CSS/#priority
+
+.cooperation {
+
+  $block-name:                &; // #{$block-name}__element
+  display: none;
+
+  @media (min-width: $screen-sm) {
+    display: block;
+    padding: 52px 20px 0;
+    background-color: rgba(204, 204, 204, 0.2);
+  }
+
+  &__title {
+    margin-bottom: 12px;
+    font-size: 36px;
+    line-height: 50px;
+    color: $main-color;
+  }
+
+  &__lead {
+    max-width: 380px;
+    margin-bottom: 40px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+}

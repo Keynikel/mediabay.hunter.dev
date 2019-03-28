@@ -1,9 +1,76 @@
-// В этом файле должны быть стили для БЭМ-блока services, его элементов, 
+// В этом файле должны быть стили для БЭМ-блока services, его элементов,
 // модификаторов, псевдоселекторов, псевдоэлементов, @media-условий...
 // Очередность: http://nicothin.github.io/idiomatic-pre-CSS/#priority
 
 .services {
 
   $block-name:                &; // #{$block-name}__element
+  display: none;
+
+  @media (min-width: $screen-sm) {
+    display: block;
+    margin-top: 46px;
+  }
+
+  &__title {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 11px;
+    font-size: 36px;
+    line-height: 50px;
+    color: $main-color;
+  }
+
+  &__lead {
+    margin-left: 20px;
+    margin-right: 20px;
+    max-width: 365px;
+    margin-bottom: 30px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  &__illustrate {
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 50px;
+  }
+
+  &__list {
+    position: relative;
+    margin: 0;
+    margin-top: 59px;
+    padding: 53px 10px 0;
+    list-style: none;
+    background-color: rgba(204, 204, 204, 0.2);
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 38px;
+      right: 0;
+      width: 650px;
+      height: 800px;
+      background-image: url(../img/about__dots.png);
+      background-size: contain;
+      background-position: 111px 0px;
+      background-repeat: no-repeat;
+    }
+  }
+
+  &__item {
+    position: relative;
+    &--first {
+      margin-bottom: 27px;
+    }
+
+    &--second {
+      padding-right: 10px;
+      padding-left: 10px;
+    }
+  }
+
+
 
 }

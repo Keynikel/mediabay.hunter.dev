@@ -113,9 +113,9 @@
 
 
   &__blocks {
-    height: 500px;
-    margin-top: 187px;
-    margin-bottom: 69px;
+    height: 662px;
+    margin-top: 27px;
+    margin-bottom: 63px;
 
     @media (min-width: $screen-sm) {
       height: 745px;
@@ -127,14 +127,20 @@
     top: 0;
     left: 0;
 
+    &--test {
+      @media (min-width: $screen-sm) {
+        height: 368px;
+      }
+    }
+
     &--spec {
-      top: 7px;
+      top: 152px;
       left: unset;
       right: -20px;
       width: 96%;
 
       @media (min-width: $screen-sm)  {
-        top: 145px;
+        top: 230px;
         left: unset;
         right: 40px;
         width: 620px;
@@ -142,7 +148,7 @@
     }
 
     &--rev {
-      top: 159px;
+      top: 304px;
       width: 47%;
       z-index: 2;
 
@@ -153,7 +159,7 @@
     }
 
     &--mod {
-      top: 209px;
+      top: 354px;
       left: unset;
       right: -12px;
       width: 76%;
