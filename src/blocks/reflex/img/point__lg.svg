@@ -1,11 +1,39 @@
 <svg width="476" height="490" viewBox="0 0 476 490" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style type="text/css">
+	  <![CDATA[
+
+	  @keyframes pulse {
+0% {
+  opacity: 0.3;
+}
+50% {
+    opacity: 1;
+}
+100% {
+    opacity: 0.3;
+}
+}
+
+    #small--lg {
+   animation-name: pulse;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+#big--jg {
+   animation-name: pulse;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+    ]]>
+}
+</style>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M244.058 179.884H245.943V232.625H244.058V179.884Z" fill="url(#paint0_linear)"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M179.981 245.81V243.926H232.75V245.81H179.981Z" fill="url(#paint1_linear)"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M244.058 309.853H245.943V257.112H244.058V309.853Z" fill="url(#paint2_linear)"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M310.02 245.81V243.926H257.25V245.81H310.02Z" fill="url(#paint3_linear)"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M199.854 244.868L245 218.351L270.345 244.868L245 269.451L199.854 244.868Z" fill="url(#paint4_linear)"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M245 320.213C286.634 320.213 320.385 286.48 320.385 244.869C320.385 203.257 286.634 169.524 245 169.524C203.367 169.524 169.616 203.257 169.616 244.869C169.616 286.48 203.367 320.213 245 320.213Z" fill="url(#paint5_radial)"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M245 0C109.763 0 0 109.631 0 244.868C0 380.105 109.763 489.737 245 489.737C380.237 489.737 490 380.105 490 244.868C490 109.631 380.237 0 245 0ZM245 169.524C203.389 169.524 169.616 203.257 169.616 244.868C169.616 286.48 203.389 320.213 245 320.213C286.612 320.213 320.385 286.48 320.385 244.868C320.385 203.257 286.612 169.524 245 169.524Z" fill="url(#paint6_radial)"/>
+<path id='small--lg' fill-rule="evenodd" clip-rule="evenodd" d="M245 320.213C286.634 320.213 320.385 286.48 320.385 244.869C320.385 203.257 286.634 169.524 245 169.524C203.367 169.524 169.616 203.257 169.616 244.869C169.616 286.48 203.367 320.213 245 320.213Z" fill="url(#paint5_radial)"/>
+<path id='big--jg' fill-rule="evenodd" clip-rule="evenodd" d="M245 0C109.763 0 0 109.631 0 244.868C0 380.105 109.763 489.737 245 489.737C380.237 489.737 490 380.105 490 244.868C490 109.631 380.237 0 245 0ZM245 169.524C203.389 169.524 169.616 203.257 169.616 244.868C169.616 286.48 203.389 320.213 245 320.213C286.612 320.213 320.385 286.48 320.385 244.868C320.385 203.257 286.612 169.524 245 169.524Z" fill="url(#paint6_radial)"/>
 <path d="M245 322.713C288.014 322.713 322.885 287.862 322.885 244.869C322.885 201.875 288.014 167.024 245 167.024C201.987 167.024 167.116 201.875 167.116 244.869C167.116 287.862 201.987 322.713 245 322.713Z" stroke="#EB0029" stroke-width="5"/>
 <path opacity="0.5" d="M245.001 350.466C303.351 350.466 350.654 303.189 350.654 244.868C350.654 186.547 303.351 139.27 245.001 139.27C186.651 139.27 139.347 186.547 139.347 244.868C139.347 303.189 186.651 350.466 245.001 350.466Z" stroke="#EB0029" stroke-width="4"/>
 <path opacity="0.2" d="M245 378.22C318.687 378.22 378.423 318.517 378.423 244.868C378.423 171.219 318.687 111.516 245 111.516C171.313 111.516 111.577 171.219 111.577 244.868C111.577 318.517 171.313 378.22 245 378.22Z" stroke="#EB0029" stroke-width="3"/>

@@ -8,10 +8,8 @@
 
   position: relative;
   padding-top: 69px;
-  margin-bottom: 80px;
-  //background-image: url('../img/present__back.png');
-  background-size: cover;
-  background-position: bottom;
+  background-image: url('../img/present__back.png');
+  background-size: contain;
 
   @media (min-width: $screen-sm) {
     padding-top: 83px;
