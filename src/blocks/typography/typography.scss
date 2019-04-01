@@ -16,6 +16,13 @@
     @media (min-width: $screen-sm) {
       margin-top: 55px;
     }
+
+    @media (min-width: $screen-md) {
+      margin-top: 93px;
+      margin-bottom: 30px;
+      font-size: 28px;
+      line-height: 28px;
+    }
   }
 
   &__letter-cell {
@@ -23,11 +30,26 @@
     font-size: 41px;
     line-height: 45px;
     color: $main-color;
+    transition: 0.5s;
+    cursor: default;
+
+
+    &:hover {
+
+    }
+
+    @media (min-width: $screen-md) {
+      padding-right: 0;
+      font-size: 60px;
+    }
 
     &--bold {
       padding-right: 16px;
       font-weight: bold;
       color: $second-color;
+      &:hover {
+        
+      }
     }
   }
 
@@ -35,5 +57,11 @@
     font-size: 16px;
     line-height: 25px;
     color: #9A9797;
+
+    @media (min-width: $screen-md) {
+      padding-top: 18px;
+      font-size: 20px;
+      line-height: 25px;
+    }
   }
 }

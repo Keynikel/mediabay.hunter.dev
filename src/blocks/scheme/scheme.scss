@@ -16,27 +16,54 @@
     @media (min-width: $screen-sm) {
       margin-top: -14px;
     }
+
+    @media (min-width: $screen-md) {
+      margin-top: -16px;
+      margin-bottom: 34px;
+      font-size: 28px;
+      line-height: 28px;
+    }
   }
 
   &__color-cell {
     height: 10px;
     padding: 0;
     padding-right: 4px;
+    transition: 0.5s;
+
 
     &--second {
       background-color: $second-color;
+
+
+      &:hover {
+        box-shadow: 1px 3px 20px $second-color-hover;
+      }
     }
 
     &--first {
-      background-color: $main-color;
+      background-color: $dark;
+
+      &:hover {
+        box-shadow: 1px 3px 20px $dark-color-hover;
+      }
     }
 
     &--dark {
-      background-color: $dark;
+
+      background-color: $main-color;
+
+      &:hover {
+        box-shadow: 1px 3px 20px $main-color-hover;
+      }
     }
     &--light {
       padding-right: 0;
       background-color: $gray-light;
+
+      &:hover {
+        box-shadow: 1px 3px 20px $light-color-hover;
+      }
     }
   }
 
@@ -45,5 +72,11 @@
     font-size: 12px;
     line-height: 15px;
     color: #9A9797;
+
+    @media (min-width: $screen-md) {
+      padding-top: 10px;
+      font-size: 14px;
+      line-height: 25px;
+    }
   }
 }
