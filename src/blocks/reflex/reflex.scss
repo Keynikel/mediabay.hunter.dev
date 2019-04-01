@@ -15,6 +15,10 @@
     margin-top: 50px;
   }
 
+  @media (min-width: $screen-md) {
+    margin-top: 70px;
+  }
+
   &::before {
     content: '';
     position: absolute;
@@ -34,6 +38,12 @@
       height: 385px;
       background-position: -7px -20px;
       background-size: cover;
+    }
+
+    @media (min-width: $screen-md) {
+      width: 445px;
+      height: 390px;
+      background-position: 6px -32px;
     }
   }
 
@@ -57,6 +67,15 @@
       background-position: 0 0;
       background-size: 136px 208px;
     }
+
+    @media (min-width: $screen-md) {
+      bottom: 125px;
+      left: 0px;
+      width: 200px;
+      height: 220px;
+      background-position: -47px 0;
+      background-size: cover;
+    }
   }
 
   &__wrapper {
@@ -73,6 +92,13 @@
       margin-right: 20px;
       padding: 50px 50px 75px;
       box-shadow: 0px 4px 40px rgba(41, 25, 86, 0.04);
+    }
+
+    @media (min-width: $screen-md) {
+      margin-left: 40px;
+      margin-right: 40px;
+      padding: 83px 60px 120px;
+      z-index: 1;
     }
 
     &::after {
@@ -94,6 +120,14 @@
         background-position: 15px 0;
         background-size: cover;
       }
+
+      @media (min-width: $screen-md) {
+        right: -28px;
+        bottom: 26px;
+        width: 190px;
+        height: 190px;
+        background-position: 0;
+      }
     }
   }
 
@@ -112,6 +146,12 @@
       line-height: 50px;
       font-weight: 500;
     }
+
+    @media (min-width: $screen-md) {
+      margin-bottom: 22px;
+      font-size: 40px;
+      line-height: 50px;
+    }
   }
 
   &__lead {
@@ -119,6 +159,13 @@
     font-size: 14px;
     line-height: 20px;
     max-width: 380px;
+
+    @media (min-width: $screen-md) {
+      max-width: 500px;
+      margin-bottom: 25px;
+      font-size: 16px;
+      line-height: 25px;
+    }
 
   }
 

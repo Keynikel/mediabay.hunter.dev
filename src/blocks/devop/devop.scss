@@ -8,6 +8,11 @@
 
   padding: 15px 0 0;
 
+  @media (min-width: $screen-md) {
+    padding-top: 9px;
+  }
+
+
   &__title {
     margin-bottom: 13px;
     padding-left: 20px;
@@ -20,6 +25,14 @@
       font-size: 32px;
       line-height: 50px;
     }
+
+    @media (min-width: $screen-md) {
+      margin-bottom: 16px;
+      padding-left: 40px;
+      padding-right: 40px;
+      font-size: 40px;
+      line-height: 50px;
+    }
   }
 
   &__lead {
@@ -29,6 +42,15 @@
     font-size: 14px;
     line-height: 20px;
     max-width: 380px;
+
+    @media (min-width: $screen-md) {
+      max-width: 645px;
+      margin-bottom: 25px;
+      padding-left: 40px;
+      padding-right: 40px;
+      font-size: 16px;
+      line-height: 25px;
+    }
   }
 
 
