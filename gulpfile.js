@@ -68,6 +68,10 @@ let jsList = [
   dirs.source + '/js/script.js',
 ];
 
+let jsonList = [
+  dirs.source + '/json/*'
+];
+
 // Компиляция и обработка стилей
 gulp.task('style', function () {
   return gulp.src(dirs.source + '/scss/style.scss')        // какой файл компилировать
@@ -121,6 +125,18 @@ gulp.task('copy:img', function () {
   }
   else {
     console.log('Изображения не обрабатываются.');
+    callback();
+  }
+});
+
+gulp.task('copy:json', function () {
+  if(jsonList.length) {
+    return gulp.src(jsonList)
+    .pipe(rename({dirname: ''}))
+    .pipe(gulp.dest(dirs.build + '/js'));
+  }
+    else {
+    console.log('json не обрабатываются.');
     callback();
   }
 });
@@ -234,7 +250,7 @@ gulp.task('build', function (callback) {
   gulpSequence(
     'clean',
     ['sprite:svg', 'sprite:png'],
-    ['style', 'js', 'copy:img', 'copy:fonts'],
+    ['style', 'js', 'copy:json', 'copy:img', 'copy:fonts'],
     'html',
     'pug',
     callback
@@ -276,10 +292,13 @@ gulp.task('serve', ['build'], function() {
   gulp.watch('*.svg', {cwd: spriteSvgPath}, ['watch:sprite:svg']);
   // Слежение за PNG (спрайты)
   gulp.watch(spritePngPath + '*.png', {cwd: spritePngPath}, ['watch:sprite:png']);
+  // Слежение за json
+  gulp.watch(jsonList, ['watch:json']);
   // Слежение за JS
   if(jsList.length) {
     gulp.watch(jsList, ['watch:js']);
-  }
+  }  
+
 });
 
 // Браузерсинк с 3-м галпом — такой браузерсинк...
@@ -290,6 +309,7 @@ gulp.task('watch:fonts', ['copy:fonts'], reload);
 gulp.task('watch:sprite:svg', ['sprite:svg'], reload);
 gulp.task('watch:sprite:png', ['sprite:png'], reload);
 gulp.task('watch:js', ['js'], reload);
+gulp.task('watch:json', ['copy:json'], reload);
 
 // Отправка в GH pages (ветку gh-pages репозитория)
 gulp.task('deploy', function() {
