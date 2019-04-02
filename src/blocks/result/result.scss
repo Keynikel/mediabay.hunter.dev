@@ -18,6 +18,12 @@
     padding-bottom: 35px;
   }
 
+  @media (min-width: $screen-md) {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 320px;
+  }
+
   &::before {
     content: '';
     position: absolute;
@@ -38,6 +44,13 @@
       background-size: 100%;
       background-position: 0px -79px;
       transform: rotate(90deg);
+    }
+
+    @media (min-width: $screen-md) {
+      top: 155px;
+      width: 350px;
+      height: 350px;
+      background-position: 0 0;
     }
   }
 
@@ -65,6 +78,11 @@
       background-position: 0 0;
       transform: rotate(0deg);
     }
+
+    @media (min-width: $screen-md) {
+      left: 540px;
+      top: 115px;
+    }
   }
 
   &__title {
@@ -79,6 +97,11 @@
       font-size: 36px;
       line-height: 50px;
     }
+
+    @media (min-width: $screen-md) {
+      margin-bottom: 21px;
+      font-size: 40px;
+    }
   }
 
   &__lead {
@@ -88,6 +111,13 @@
 
     @media (min-width: $screen-sm) {
       max-width: 380px;
+    }
+
+    @media (min-width: $screen-md) {
+      max-width: 490px;
+      margin-bottom: 25px;
+      font-size: 16px;
+      line-height: 25px;
     }
 
     &::after {
@@ -110,7 +140,11 @@
         left: 378px;
         bottom: 107px;
         background-position: 0 0;
+      }
 
+      @media (min-width: $screen-md) {
+        left: 513px;
+        bottom: 321px;
       }
     }
   }

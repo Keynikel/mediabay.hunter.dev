@@ -9,7 +9,11 @@
 
   @media (min-width: $screen-sm) {
     display: block;
-    margin-top: 46px;
+    padding-top: 46px;
+
+    @media (min-width: $screen-md) {
+      padding-top: 77px;
+    }
   }
 
   &__title {
@@ -19,6 +23,14 @@
     font-size: 36px;
     line-height: 50px;
     color: $main-color;
+
+    @media (min-width: $screen-md) {
+      margin-bottom: 37px;
+      margin-left: 40px;
+      margin-right: 40px;
+      font-size: 40px;
+      line-height: 20px;
+    }
   }
 
   &__lead {
@@ -28,6 +40,15 @@
     margin-bottom: 30px;
     font-size: 14px;
     line-height: 20px;
+
+    @media (min-width: $screen-md) {
+      max-width: 475px;
+      margin-left: 40px;
+      margin-right: 40px;
+      margin-bottom: 34px;
+      font-size: 16px;
+      line-height: 25px;
+    }
   }
 
   &__illustrate {
@@ -35,6 +56,12 @@
     padding-left: 20px;
     padding-right: 20px;
     margin-bottom: 50px;
+
+    @media (min-width: $screen-md) {
+      margin-bottom: 35px;
+      padding-left: 40px;
+      padding-right: 40px;
+    }
   }
 
   &__list {
@@ -44,6 +71,11 @@
     padding: 53px 10px 0;
     list-style: none;
     background-color: rgba(204, 204, 204, 0.2);
+
+    @media (min-width: $screen-md) {
+      padding-left: 25px;
+      padding-right: 25px;
+    }
 
     &::before {
       content: '';
@@ -56,6 +88,12 @@
       background-size: contain;
       background-position: 111px 0px;
       background-repeat: no-repeat;
+
+      @media (min-width: $screen-md) {
+        width: 750px;
+        height: 850px;
+        background-position: 38px 0px;
+      }
     }
   }
 
@@ -63,6 +101,10 @@
     position: relative;
     &--first {
       margin-bottom: 27px;
+
+      @media (min-width: $screen-md) {
+        margin-bottom: 40px;
+      }
     }
 
     &--second {
