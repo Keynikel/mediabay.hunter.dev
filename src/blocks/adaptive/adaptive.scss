@@ -84,6 +84,7 @@
       max-width: 560px;
       font-size: 40px;
       line-height: 50px;
+      z-index: 2;
     }
   }
 
@@ -109,6 +110,7 @@
       margin-bottom: 63px;
       font-size: 16px;
       line-height: 25px;
+      z-index: 2;
     }
   }
 
@@ -139,6 +141,7 @@
       padding-bottom: 8px;
       font-size: 20px;
       line-height: 50px;
+      z-index: 2;
     }
 
     & span:first-of-type {

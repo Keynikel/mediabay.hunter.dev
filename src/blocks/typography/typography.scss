@@ -35,7 +35,7 @@
 
 
     &:hover {
-
+      text-shadow: 0px 4px 5px $main-color-hover;
     }
 
     @media (min-width: $screen-md) {
@@ -48,7 +48,7 @@
       font-weight: bold;
       color: $second-color;
       &:hover {
-        
+        text-shadow: 0px 4px 5px $second-color-hover;
       }
     }
   }
