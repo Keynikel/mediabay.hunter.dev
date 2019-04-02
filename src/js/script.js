@@ -8,9 +8,9 @@ $(document).ready(function(){
    $('html').removeClass('no-scroll');
 });
 
-particlesJS.load('particles-about', '/js/particles.json');
-particlesJS.load('particles-adaptive', '/js/particles.json');
-particlesJS.load('particles-services', '/js/particles-back.json');
+particlesJS.load('particles-about', 'js/particles.json');
+particlesJS.load('particles-adaptive', 'js/particles.json');
+particlesJS.load('particles-services', 'js/particles-back.json');
 
 // Если на проекте нет jQuery, но хочется $( document ).ready... (IE9+)
 // function ready(fn) {
