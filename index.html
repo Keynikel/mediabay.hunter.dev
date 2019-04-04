@@ -91,9 +91,7 @@
       <li class="elements__block elements__block--test">
         <picture>
           <!--source(media='(min-width: 1440px)' srcset='img/main-slider-1--lg.webp' type='image/webp' )-->
-          <!--source(media='(min-width: 1440px)' srcset='img/main-slider-1--lg.jpg' )-->
-          <!--source(media='(min-width: 1000px)' srcset='img/main-slider-1--md.webp' type='image/webp' )-->
-          <!--source(media='(min-width: 1000px)' srcset='img/main-slider-1--md.jpg' )-->
+          <source media="(min-width: 1440px)" srcset="img/block__0--lg.png" />
           <!--source(media='(min-width: 768px)' srcset='img/main-slider-1--sm.webp' type='image/webp' )-->
           <source media="(min-width: 768px)" srcset="img/block__0--md.jpg" />
           <!--source(srcset='img/main-slider-1--xs.webp' type='image/webp')--><img class="elemens__img" src="img/block__0.png" alt="Тестируем уязвимости"/></picture>
@@ -135,81 +133,87 @@
   <section class="present">
     <h2 class="present__title">Презентация компании</h2>
     <p class="present__lead">После запуска сайта мы сделали презентацию, задача которой познакомить потенциальных клиентов с услугами T.Hunter, продемонстрировать преимущества, которые несут финансовую выгоду, а также сформировать положительное мнение о компании.</p><a class="present__download" href="#" download="download">Презентация T. Hunter</a>
-    <div class="present__wrapper"><img src="img/present.png" alt="Презентация для сайта tomhunter.ru"/></div>
-      <ul class="present__list">
-        <li class="present__item"><img class="present__img present__img--first-slide" src="img/slide_1.jpg" alt="Слайд: Компания t.Hunter"/></li>
-        <li class="present__item"><img class="present__img present__img--second-slide" src="img/slide_2.jpg" alt="Слайд: Концепция компании"/></li>
+    <div class="present__wrapper">
+      <picture>
+        <!--source(media='(min-width: 1440px)' srcset='img/main-slider-1--lg.webp' type='image/webp' )-->
+        <source media="(min-width: 1440px)" srcset="img/block__0--lg.png" />
+        <!--source(media='(min-width: 768px)' srcset='img/main-slider-1--sm.webp' type='image/webp' )-->
+        <source media="(min-width: 768px)" srcset="img/present--sm.jpg" /><img src="img/present.png" alt="Презентация для сайта tomhunter.ru"/></picture>
+    </div>
+    <ul class="present__list">
+      <li class="present__item"><img class="present__img present__img--first-slide" src="img/slide_1.jpg" alt="Слайд: Компания t.Hunter"/></li>
+      <li class="present__item"><img class="present__img present__img--second-slide" src="img/slide_2.jpg" alt="Слайд: Концепция компании"/></li>
+    </ul>
+    <section class="services">
+      <h2 class="services__title">Услуги</h2>
+      <p class="services__lead">Рассказываем о деятельности компании и об услугах, которые призваны обнаружить уязвимости информационных систем и в будущем снизить риск атак.</p><img class="services__illustrate" src="img/services.jpg" alt="Слайд: Тестируем на уязвимости"/>
+      <p class="services__lead">Проблемы безопасности важно фиксировать вовремя — от этого зависит финансовое благополучие и репутация компании. Знакомим будущих клиентов со статистическими данными и объясняем насколько могут быть разрушительны последствия кибератак.</p>
+      <ul class="services__list">
+        <li id="particles-services"></li>
+        <li class="services__item services__item--first"><img src="img/slide__1.png" alt="Слайд: Статистика защищенности компаний в России"/></li>
+        <li class="services__item services__item--second"><img src="img/slide__2.jpg" alt="Слайд: Последствия кибератак"/></li>
       </ul>
-      <section class="services">
-        <h2 class="services__title">Услуги</h2>
-        <p class="services__lead">Рассказываем о деятельности компании и об услугах, которые призваны обнаружить уязвимости информационных систем и в будущем снизить риск атак.</p><img class="services__illustrate" src="img/services.jpg" alt="Слайд: Тестируем на уязвимости"/>
-        <p class="services__lead">Проблемы безопасности важно фиксировать вовремя — от этого зависит финансовое благополучие и репутация компании. Знакомим будущих клиентов со статистическими данными и объясняем насколько могут быть разрушительны последствия кибератак.</p>
-        <ul class="services__list">
-          <li id="particles-services"></li>
-          <li class="services__item services__item--first"><img src="img/slide__1.png" alt="Слайд: Статистика защищенности компаний в России"/></li>
-          <li class="services__item services__item--second"><img src="img/slide__2.jpg" alt="Слайд: Последствия кибератак"/></li>
-        </ul>
-      </section>
-      <section class="cooperation">
-        <h2 class="cooperation__title">Цикл сотрудничества</h2>
-        <p class="cooperation__lead">Наглядно демонстрируем, как Т. Hunter организовали цикл сотрудничества с клиентами.</p><img src="img/cicle.png" alt="Слайд: Цикл сотрудничества"/></section>
-      </section>
-      <section class="result">
-        <h2 class="result__title">Результат</h2>
-        <p class="result__lead">Создали для Т. Hunter сайт с современным дизайном, формирующий целостный образ компании, который вызывает доверие. А также решили задачу знакомства клиентов с деятельностью компании посредством эффектной презентации.</p>
-        <p class="result__lead">У нас с Т. Hunter ещё много планов для следующих спринтов: например, запустить уже разработанные, но пока  не заполненные блоки. Но даже сейчас, в минимальной комплектации, сайт решает поставленные задачи. </p>
-      </section>
-      <section class="contacts">
-        <h2 class="contacts__header">ЗАКАЗАТЬ ПРОЕКТ</h2>
-        <p class="contacts__lead">Напишите нам, позвоните или просто оставьте свои данные, чтобы обсудить задачу.</p>
-        <div class="form__step contacts__form">
-          <form id="form2">
-            <div class="form__answers form__answers--four">
-              <p class="form__fields"><input class="form__name" type="text" name="user-name" placeholder="Представьтесь" required="required"/></p>
-                <p class="form__fields"><input class="form__phone" type="phone" name="user-phone" placeholder="Номер телефона" required="required"/></p>
-                  <p class="form__fields"><input class="form__mail" type="email" name="user-email" placeholder="E-mail" required="required"/></p>
-                    <p class="form__fields--agree"><input class="form__agree" type="checkbox" id="agreeded" required="required"/><label class="form__agree--label" for="agreeded">Принимаю <a href="/policy.html" target="_blank">соглашение</a> об использовании персональных данных</label></p>
-                    <p class="form__fields"><input class="form__send" type="submit" value="Отправить" id="contacts" disabled="disabled"/></p>
-            </div>
-          </form>
-        </div>
-        <ul class="contacts__list">
-          <li class="contacts__item">
-            <h3 class="contacts__title">Адрес</h3>
-            <p class="contacts__text">Санкт-Петербург, пр. Обуховской обороны, д. 86, лит. М, БЦ «Квартал», офис 509.</p>
-          </li>
-          <li class="contacts__item">
-            <h3 class="contacts__title">ТЕЛЕФОН</h3><a class="contacts__text contacts__text--not-under" href="tel:+78126605998">+7 (812) 6605998</a>
-          </li>
-          <li class="contacts__item">
-            <h3 class="contacts__title">Е-MAIL</h3><a class="contacts__text" href="#">hello@media-bay.ru</a>
-          </li>
-        </ul>
-      </section>
-      <section class="footer"><a class="footer__wrapper" href="/"><svg class="footer__logo" width="90" height="22"><use xlink:href="img/sprite-svg.svg#header-logo"></use></svg></a>
-        <div class="footer__contacts">
-          <div class="footer__links">
-            <nav class="footer-nav">
-              <ul class="footer__list">
-                <li class="footer__item"><a href="/projects.html" title="Кейсы">Кейсы</a></li>
-                <li class="footer__item"><a href="/about.html" title="О нас">О нас</a></li>
-              </ul>
-            </nav><a class="footer__phone" href="tel:+78126605998">+7 (812) 6605998</a>
+    </section>
+    <section class="cooperation">
+      <h2 class="cooperation__title">Цикл сотрудничества</h2>
+      <p class="cooperation__lead">Наглядно демонстрируем, как Т. Hunter организовали цикл сотрудничества с клиентами.</p><img src="img/cicle.png" alt="Слайд: Цикл сотрудничества"/></section>
+    </section>
+    <section class="result">
+      <h2 class="result__title">Результат</h2>
+      <p class="result__lead">Создали для Т. Hunter сайт с современным дизайном, формирующий целостный образ компании, который вызывает доверие. А также решили задачу знакомства клиентов с деятельностью компании посредством эффектной презентации.</p>
+      <p class="result__lead">У нас с Т. Hunter ещё много планов для следующих спринтов: например, запустить уже разработанные, но пока  не заполненные блоки. Но даже сейчас, в минимальной комплектации, сайт решает поставленные задачи. </p>
+    </section>
+    <section class="contacts">
+      <h2 class="contacts__header">ЗАКАЗАТЬ ПРОЕКТ</h2>
+      <p class="contacts__lead">Напишите нам, позвоните или просто оставьте свои данные, чтобы обсудить задачу.</p>
+      <div class="form__step contacts__form">
+        <form id="form2">
+          <div class="form__answers form__answers--four">
+            <p class="form__fields"><input class="form__name" type="text" name="user-name" placeholder="Представьтесь" required="required"/></p>
+              <p class="form__fields"><input class="form__phone" type="phone" name="user-phone" placeholder="Номер телефона" required="required"/></p>
+                <p class="form__fields"><input class="form__mail" type="email" name="user-email" placeholder="E-mail" required="required"/></p>
+                  <p class="form__fields--agree"><input class="form__agree" type="checkbox" id="agreeded" required="required"/><label class="form__agree--label" for="agreeded">Принимаю <a href="/policy.html" target="_blank">соглашение</a> об использовании персональных данных</label></p>
+                  <p class="form__fields"><input class="form__send" type="submit" value="Отправить" id="contacts" disabled="disabled"/></p>
           </div>
-          <div class="footer__mail"><a href="mailto:hello@media-bay.ru">hello@media-bay.ru</a></div>
-          <div class="footer__address">Санкт-Петербург, пр. Обуховской обороны, д.&#160;86, лит. М, БЦ&#160;«Квартал», офис 509.</div>
+        </form>
+      </div>
+      <ul class="contacts__list">
+        <li class="contacts__item">
+          <h3 class="contacts__title">Адрес</h3>
+          <p class="contacts__text">Санкт-Петербург, пр. Обуховской обороны, д. 86, лит. М, БЦ «Квартал», офис 509.</p>
+        </li>
+        <li class="contacts__item">
+          <h3 class="contacts__title">ТЕЛЕФОН</h3><a class="contacts__text contacts__text--not-under" href="tel:+78126605998">+7 (812) 6605998</a>
+        </li>
+        <li class="contacts__item">
+          <h3 class="contacts__title">Е-MAIL</h3><a class="contacts__text" href="#">hello@media-bay.ru</a>
+        </li>
+      </ul>
+    </section>
+    <section class="footer"><a class="footer__wrapper" href="/"><svg class="footer__logo" width="90" height="22"><use xlink:href="img/sprite-svg.svg#header-logo"></use></svg></a>
+      <div class="footer__contacts">
+        <div class="footer__links">
+          <nav class="footer-nav">
+            <ul class="footer__list">
+              <li class="footer__item"><a href="/projects.html" title="Кейсы">Кейсы</a></li>
+              <li class="footer__item"><a href="/about.html" title="О нас">О нас</a></li>
+            </ul>
+          </nav><a class="footer__phone" href="tel:+78126605998">+7 (812) 6605998</a>
         </div>
-        <div class="footer__soc">
-          <p class="footer__copy">© 2019 Студия Media bay. Все права защищены</p>
-          <ul class="footer__socials">
-            <li class="footer__social footer__social--vk"><a href="#"><svg width="27" height="15"><use xlink:href="img/sprite-svg.svg#vk"></use></svg><span class="visually-hidden">Вконтакте</span></a></li>
-            <li class="footer__social footer__social--fb"><a href="#"><svg width="10" height="18"><use xlink:href="img/sprite-svg.svg#facebook"></use></svg><span class="visually-hidden">Facebook</span></a></li>
-            <li class="footer__social footer__social--inst"><a href="#"><svg width="20" height="20"><use xlink:href="img/sprite-svg.svg#instagram"></use></svg><span class="visually-hidden">Instagram</span></a></li>
-          </ul><a class="footer__conf" href="/policy.html">Политика конфиденциальности</a>
-        </div>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-        <script src="js/script.min.js"></script>
-      </section>
+        <div class="footer__mail"><a href="mailto:hello@media-bay.ru">hello@media-bay.ru</a></div>
+        <div class="footer__address">Санкт-Петербург, пр. Обуховской обороны, д.&#160;86, лит. М, БЦ&#160;«Квартал», офис 509.</div>
+      </div>
+      <div class="footer__soc">
+        <p class="footer__copy">© 2019 Студия Media bay. Все права защищены</p>
+        <ul class="footer__socials">
+          <li class="footer__social footer__social--vk"><a href="#"><svg width="27" height="15"><use xlink:href="img/sprite-svg.svg#vk"></use></svg><span class="visually-hidden">Вконтакте</span></a></li>
+          <li class="footer__social footer__social--fb"><a href="#"><svg width="10" height="18"><use xlink:href="img/sprite-svg.svg#facebook"></use></svg><span class="visually-hidden">Facebook</span></a></li>
+          <li class="footer__social footer__social--inst"><a href="#"><svg width="20" height="20"><use xlink:href="img/sprite-svg.svg#instagram"></use></svg><span class="visually-hidden">Instagram</span></a></li>
+        </ul><a class="footer__conf" href="/policy.html">Политика конфиденциальности</a>
+      </div>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+      <script src="js/script.min.js"></script>
+    </section>
 </body>
 
 </html>
