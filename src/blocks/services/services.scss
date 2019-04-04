@@ -9,9 +9,15 @@
 
   @media (min-width: $screen-sm) {
     display: block;
-    padding-top: 46px;
+    margin-top: -350px;
+    padding-top: 400px;
+    background-image: url('../img/services__back--sm.png');
+    background-position: 0 0;
+    background-size: 100%;
+    background-repeat: no-repeat;
 
     @media (min-width: $screen-md) {
+      margin-top: 0;
       padding-top: 77px;
     }
   }
@@ -71,6 +77,13 @@
     padding: 53px 10px 0;
     list-style: none;
     background-color: rgba(204, 204, 204, 0.2);
+
+    @media (min-width: $screen-sm) {
+      background-image: url('../img/services__list--sm.png');
+      background-position: 0 0;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
 
     @media (min-width: $screen-md) {
       padding-left: 25px;

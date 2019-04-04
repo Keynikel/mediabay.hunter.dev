@@ -11,8 +11,10 @@
   background-position: center;
 
   @media (min-width: $screen-sm)  {
+    margin-top: -80px;
     margin-bottom: 65px;
-    background-image: none;
+    background-image: url('../img/elements__back--sm.png');
+    background-position: 0 -268px;
   }
 
   @media (min-width: $screen-md) {
@@ -20,6 +22,12 @@
     padding-top: 25px;
     padding-left: 40px;
     padding-right: 40px;
+  }
+
+  @media (min-width: $screen-lg) {
+    margin-top: -242px;
+    padding-left: 100px;
+    padding-right: 100px;
   }
 
   &__title {
@@ -35,6 +43,11 @@
     @media (min-width: $screen-md) {
       margin-bottom: 0;
       font-size: 40px;
+      line-height: 50px;
+    }
+
+    @media (min-width: $screen-lg) {
+      font-size: 50px;
       line-height: 50px;
     }
   }
@@ -53,6 +66,21 @@
       margin-top: 26px;
       font-size: 16px;
       line-height: 30px;
+    }
+
+    @media (min-width: $screen-lg) {
+      max-width: 580px;
+      margin-top: 33px;
+      font-size: 19px;
+      line-height: 30px;
+
+      &:last-of-type {
+        margin-top: 13px;
+        margin-left: auto;
+        margin-right: 12px;
+        font-size: 20px;
+        z-index: 3;
+      }
     }
   }
 
@@ -80,6 +108,11 @@
       margin-top: 110px;
       margin-bottom: 50px;
       height: 625px;
+    }
+
+    @media (min-width: $screen-lg) {
+      margin-top: 102px;
+      margin-bottom: 70px;
     }
   }
 
@@ -133,6 +166,10 @@
         top: 123px;
         left: 229px;
       }
+
+      @media (min-width: $screen-lg) {
+        left: 236px;
+      }
     }
 
     &--prot {
@@ -149,6 +186,11 @@
         top: -300px;
         left: 618px;
       }
+
+      @media (min-width: $screen-lg) {
+        top: -160px;
+        left: 715px;
+      }
     }
 
     &--lrn {
@@ -163,6 +205,10 @@
       @media (min-width: $screen-md) {
         top: 10px;
         left: 462px;
+      }
+
+      @media (min-width: $screen-lg) {
+        left: 515px;
       }
     }
   }
@@ -179,6 +225,11 @@
     @media (min-width: $screen-md) {
       margin-top: 15px;
       height: 1485px;
+    }
+
+    @media (min-width: $screen-lg) {
+      margin-top: 43px;
+      height: 1580px;
     }
   }
 
@@ -199,6 +250,10 @@
         @media (min-width: $screen-md) {
           max-height: 556px;
         }
+
+        @media (min-width: $screen-lg) {
+          max-height: 580px;
+        }
       }
     }
 
@@ -217,6 +272,11 @@
 
         @media (min-width: $screen-md) {
           max-height: 510px;
+        }
+
+        @media (min-width: $screen-lg) {
+          max-height: 540px;
+          height: 540px;
         }
       }
 
@@ -241,6 +301,22 @@
           }
         }
       }
+
+      @media (min-width: $screen-lg) {
+        top: 610px;
+        left: 0px;
+
+        &:hover {
+          left: 40px;
+          z-index: 3;
+
+          img {
+            box-shadow: 0px 4px 40px rgba(41, 25, 86, 0.08);
+            max-height: 620px;
+            height: 620px;
+          }
+        }
+      }
     }
 
     &--rev {
@@ -258,6 +334,10 @@
 
         @media (min-width: $screen-md) {
           max-height: 465px;
+        }
+
+        @media (min-width: $screen-lg)  {
+          max-height: 540px;
         }
       }
 
@@ -279,6 +359,25 @@
           }
         }
       }
+
+      @media (min-width: $screen-lg) {
+        width: auto;
+        top: 610px;
+        left: unset;
+        right: 0;
+
+        &:hover {
+          z-index: 3;
+          left: unset;
+          right: 40px;
+
+          img {
+            box-shadow: 0px 4px 40px rgba(41, 25, 86, 0.08);
+            max-height: 620px;
+          }
+        }
+
+      }
     }
 
     &--mod {
@@ -294,6 +393,10 @@
 
         @media (min-width: $screen-md) {
           max-height: 290px;
+        }
+
+        @media (min-width: $screen-lg) {
+          max-height: 380px;
         }
       }
 
@@ -317,6 +420,13 @@
             max-height: 620px;
           }
         }
+      }
+
+      @media (min-width: $screen-lg) {
+        top: 1110px;
+        width: 600px;
+        right: 243px;
+        transition: 0.5s;
       }
     }
 
@@ -353,6 +463,23 @@
           width: 700px;
           top: 1000px;
           left: 180px;
+
+          img {
+            box-shadow: 0px 4px 40px rgba(41, 25, 86, 0.08);
+            max-height: 620px;
+          }
+        }
+      }
+
+      @media (min-width: $screen-lg) {
+        top: 1385px;
+        left: 0;
+
+        &:hover {
+          z-index: 3;
+          width: 700px;
+          top: 1200px;
+          left: 40px;
 
           img {
             box-shadow: 0px 4px 40px rgba(41, 25, 86, 0.08);

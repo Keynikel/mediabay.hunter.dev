@@ -12,6 +12,11 @@
     right: 0;
     z-index: 1;
   }
+
+  @media (min-width: $screen-lg) {
+    width: 1150px;
+    height: 1100px;
+  }
 }
 
 #particles-adaptive {

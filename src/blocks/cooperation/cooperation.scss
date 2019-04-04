@@ -10,7 +10,10 @@
   @media (min-width: $screen-sm) {
     display: block;
     padding: 52px 20px 0;
-    background-color: rgba(204, 204, 204, 0.2);
+    background-image: url('../img/cooperation__back--sm.png');
+    background-size: cover;
+    background-position: 0px -115px;
+    background-repeat: no-repeat;
 
     @media (min-width: $screen-md) {
       padding-top: 69px;

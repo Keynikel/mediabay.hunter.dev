@@ -16,6 +16,7 @@
     margin-top: 0;
     padding-top: 148px;
     padding-bottom: 35px;
+    background-image: url('../img/result__back--sm.png');
   }
 
   @media (min-width: $screen-md) {
@@ -39,6 +40,7 @@
 
     @media (min-width: $screen-sm) {
       top: 45px;
+      right: 0;
       width: 400px;
       height: 400px;
       background-size: 100%;

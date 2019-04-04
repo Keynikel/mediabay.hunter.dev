@@ -4,7 +4,12 @@ mixin present()
     p.present__lead После запуска сайта мы сделали презентацию, задача которой познакомить потенциальных клиентов с услугами T.Hunter, продемонстрировать преимущества, которые несут финансовую выгоду, а также сформировать положительное мнение о компании.
     a.present__download(href="#" download) Презентация T. Hunter
     div.present__wrapper
-      img(src="img/present.png", alt="Презентация для сайта tomhunter.ru")
+      picture
+           //source(media='(min-width: 1440px)' srcset='img/main-slider-1--lg.webp' type='image/webp' )
+           source(media='(min-width: 1440px)' srcset='img/block__0--lg.png' )
+           //source(media='(min-width: 768px)' srcset='img/main-slider-1--sm.webp' type='image/webp' )
+           source(media='(min-width: 768px)' srcset='img/present--sm.jpg' )
+           img(src="img/present.png", alt="Презентация для сайта tomhunter.ru")
     ul.present__list
       li.present__item
         img.present__img.present__img--first-slide(src="img/slide_1.jpg", alt="Слайд: Компания t.Hunter")
