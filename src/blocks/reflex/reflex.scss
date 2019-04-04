@@ -43,6 +43,7 @@
     }
 
     @media (min-width: $screen-sm) {
+      left: unset;
       right: 20px;
       width: 410px;
       height: 385px;
