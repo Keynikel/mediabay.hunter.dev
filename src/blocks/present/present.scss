@@ -10,12 +10,12 @@
   padding-top: 69px;
   background-image: url('../img/present__back.png');
   background-size: contain;
+  background-repeat: no-repeat;
 
   @media (min-width: $screen-sm) {
     padding-top: 83px;
     background-image: url('../img/present__back--sm.png');
     background-position: 0 0;
-    background-repeat: no-repeat;
   }
 
   @media (min-width: $screen-md) {
@@ -140,6 +140,7 @@
   &__wrapper {
     position: relative;
 
+
     @media (min-width: $screen-sm) {
       height: 540px;
     }
@@ -166,6 +167,7 @@
 
     img {
       display: block;
+      margin-top: -23px;
       margin-left: auto;
       margin-right: auto;
 
@@ -174,6 +176,7 @@
         top: -165px;
         left: 0;
         max-width: 750px;
+        margin-top: 0;
       }
 
       @media (min-width: $screen-md) {

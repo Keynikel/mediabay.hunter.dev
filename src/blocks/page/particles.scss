@@ -33,6 +33,12 @@
     left: 0;
     z-index: 1;
   }
+
+  @media (min-width: $screen-lg) {
+    width: 1100px;
+    height: 1100px;
+    top: -125px;
+  }
 }
 
 #particles-services {

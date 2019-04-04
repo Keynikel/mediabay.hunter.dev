@@ -6,11 +6,13 @@
 
   $block-name:                &; // #{$block-name}__element
   position: relative;
-  margin-bottom: 35px;
+  margin-top: 100px; //поднимаем из-за фона
+  margin-bottom: 55px;
   padding-left: 20px;
   padding-right: 20px;
 
   @media (min-width: $screen-sm) {
+    margin-top: 0;
     padding-bottom: 123px;
     margin-bottom: 0;
     background-image: url('../img/visual__back--sm.png');
@@ -86,8 +88,10 @@
   &__lead {
     font-size: 13px;
     line-height: 20px;
+    max-width: 500px;
 
     @media (min-width: $screen-sm) {
+      max-width: unset;
       grid-column: 1/2;
       grid-row: 2/3;
     }
@@ -111,8 +115,10 @@
 
   &__scheme {
     margin-top: 44px;
+    max-width: 450px;
 
     @media (min-width: $screen-sm) {
+      max-width: unset;
       grid-column: 2/3;
       grid-row: 1/2;
       margin: 0;
@@ -121,8 +127,10 @@
 
   &__typography {
     margin-top: 53px;
+    max-width: 350px;
 
     @media (min-width: $screen-sm) {
+      max-width: unset;
       grid-column: 2/3;
       grid-row: 2/3;
       margin: 0;

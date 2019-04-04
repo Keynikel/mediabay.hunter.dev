@@ -7,10 +7,10 @@
   $block-name:                &; // #{$block-name}__element
 
   position: relative;
-  padding: 43px 0 150px;
+  padding: 43px 0 100px;
   background-image: url('../img/info__back.png');
-  background-position: 0 50px;
-  background-size: 100%;
+  background-position: 0;
+  background-size: cover;
   background-repeat: no-repeat;
 
   @media (min-width: $screen-sm) {

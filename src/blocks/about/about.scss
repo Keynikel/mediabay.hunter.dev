@@ -65,11 +65,11 @@
   &::before {
     content: '';
     position: absolute;
-    top: 142px;
+    top: 170px;
     width: 100%;
     height: 410px;
     background-image: url('../img/about__dots.png');
-    background-size: contain;
+    background-size: 400px;
     background-position: center;
     background-repeat: no-repeat;
 
@@ -78,6 +78,7 @@
       right: 0;
       width: 580px;
       height: 650px;
+      background-size: contain;
       background-position: 55px 0px;
     }
 
