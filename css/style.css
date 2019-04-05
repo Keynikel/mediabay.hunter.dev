@@ -34,25 +34,25 @@
   font-style: italic; }
 
 .chrome {
-  background-image: url(../img/sprite-02639174587912134.png);
+  background-image: url(../img/sprite-08074154757167511.png);
   background-position: 0px -232px;
   width: 64px;
   height: 64px; }
 
 .github-logo {
-  background-image: url(../img/sprite-02639174587912134.png);
+  background-image: url(../img/sprite-08074154757167511.png);
   background-position: -68px -232px;
   width: 64px;
   height: 64px; }
 
 .hunter-logo {
-  background-image: url(../img/sprite-02639174587912134.png);
+  background-image: url(../img/sprite-08074154757167511.png);
   background-position: 0px 0px;
   width: 840px;
   height: 228px; }
 
 .placeholder {
-  background-image: url(../img/sprite-02639174587912134.png);
+  background-image: url(../img/sprite-08074154757167511.png);
   background-position: -136px -232px;
   width: 64px;
   height: 64px; }
@@ -1564,28 +1564,35 @@ img {
           left: 335px; }
       .elements__blocks {
         height: 955px; }
+        .elements__block--test {
+          left: 0;
+          right: unset; }
           .elements__block--test img {
             max-height: 368px; }
           .elements__block--spec img {
             max-height: 420px; }
         .elements__block--spec {
-          top: 295px;
-          left: 60px;
-          right: unset; }
+          top: 320px;
+          left: 85px;
+          right: unset;
+          min-width: 285px;
+          max-width: 83%; }
           .elements__block--rev img {
             max-height: 380px; }
         .elements__block--rev {
           top: 543px; }
+          .elements__block--mod img {
+            max-height: 215px; }
         .elements__block--mod {
-          top: 653px;
+          top: 674px;
           left: unset;
-          right: 112px;
+          right: 95px;
           width: 386px; }
         .elements__block--stat {
           top: 867px;
-          left: 380px;
+          left: 383px;
           right: unset;
-          width: 370px; }
+          width: 435px; }
       .devop__title {
         font-size: 32px;
         line-height: 50px; }
@@ -1880,11 +1887,12 @@ img {
         line-height: 50px;
         font-weight: 500; }
     .cooperation {
+      position: relative;
       display: block;
-      padding: 52px 20px 0;
+      padding: 52px 20px 47px;
       background-image: url("../img/cooperation__back--sm.png");
       background-size: cover;
-      background-position: 0px -115px;
+      background-position: top;
       background-repeat: no-repeat; } }
   @media (min-width: 768px) and (min-width: 1000px) {
     .services {
