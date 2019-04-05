@@ -22,7 +22,7 @@
   @media (min-width: $screen-md) {
     padding-left: 40px;
     padding-right: 40px;
-    padding-bottom: 320px;
+    padding-bottom: 85px;
   }
 
   @media (min-width: $screen-lg) {
@@ -56,7 +56,8 @@
     }
 
     @media (min-width: $screen-md) {
-      top: 155px;
+      top: 80px;
+      right: 40px;
       width: 350px;
       height: 350px;
       background-position: 0 0;
@@ -97,7 +98,7 @@
 
     @media (min-width: $screen-md) {
       left: 540px;
-      top: 115px;
+      top: 38px;
     }
 
     @media (min-width: $screen-lg) {
@@ -181,7 +182,7 @@
 
       @media (min-width: $screen-md) {
         left: 513px;
-        bottom: 321px;
+        bottom: 85px;
       }
 
       @media (min-width: $screen-lg) {

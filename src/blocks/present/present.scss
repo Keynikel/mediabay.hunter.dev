@@ -198,6 +198,10 @@
         background-size: cover;
         background-repeat: no-repeat;
       }
+
+      @media (min-width: $screen-md) {
+        background-image: url(../img/present__styling--md.png);
+      }
     }
 
     img {
@@ -301,7 +305,7 @@
 
       @media (min-width: $screen-md) {
         right: 40px;
-        top: 238px;
+        top: 180px;
         width: 860px;
       }
 
