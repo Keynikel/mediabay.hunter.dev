@@ -27,7 +27,7 @@
     color: $main-color;
 
     @media (min-width: $screen-sm) {
-      font-size: 32px;
+      font-size: 36px;
       line-height: 50px;
     }
 
@@ -55,6 +55,10 @@
     font-size: 14px;
     line-height: 20px;
     max-width: 420px;
+
+    @media (min-width: $screen-sm) {
+      max-width: 480px;
+    }
 
     @media (min-width: $screen-md) {
       max-width: 645px;

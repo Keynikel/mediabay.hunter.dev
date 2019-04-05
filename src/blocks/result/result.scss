@@ -14,8 +14,8 @@
 
   @media (min-width: $screen-sm) {
     margin-top: 0;
-    padding-top: 148px;
-    padding-bottom: 35px;
+    padding-top: 70px;
+    padding-bottom: 60px;
     background-image: url('../img/result__back--sm.png');
   }
 
@@ -26,7 +26,7 @@
   }
 
   @media (min-width: $screen-lg) {
-    padding-top: 63px;
+    padding-top: 85px;
     padding-left: 100px;
     padding-right: 100px;
     padding-bottom: 105px;
@@ -46,12 +46,12 @@
     opacity: 0.4;
 
     @media (min-width: $screen-sm) {
-      top: 45px;
+      top: -6px;
       right: 0;
       width: 400px;
       height: 400px;
       background-size: 100%;
-      background-position: 0px -79px;
+      background-position: 0px -113px;
       transform: rotate(90deg);
     }
 
@@ -89,7 +89,7 @@
       height: 170px;
       bottom: unset;
       left: 404px;
-      top: 50px;
+      top: 0;
       background-size: 100%;
       background-position: 0 0;
       transform: rotate(0deg);
@@ -140,7 +140,7 @@
     line-height: 20px;
 
     @media (min-width: $screen-sm) {
-      max-width: 380px;
+      max-width: 420px;
     }
 
     @media (min-width: $screen-md) {
@@ -174,7 +174,7 @@
         width: 100px;
         height: 100px;
         right: unset;
-        left: 378px;
+        right: 250px;
         bottom: 107px;
         background-position: 0 0;
       }

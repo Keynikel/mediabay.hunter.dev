@@ -234,7 +234,7 @@
       display: block;
       height: 685px;
       margin: 0;
-      margin-top: 52px;
+      margin-top: 15px;
       margin-left: 20px;
       padding: 0;
       list-style: none;
@@ -253,24 +253,28 @@
 
   &__item {
 
-    &:hover img.present__img--first-slide {
-      left: 40px;
-      width: 800px;
+    @media (min-width: $screen-md) {
+      &:hover img.present__img--first-slide {
+        left: 40px;
+        width: 600px;
 
-      @media (min-width: $screen-lg) {
-        width: 1100px;
+        @media (min-width: $screen-lg) {
+          width: 1100px;
+        }
+      }
+
+      &:hover img.present__img--second-slide {
+        right: 80px;
+        width: 1000px;
+        z-index: 2;
+
+        @media (min-width: $screen-lg)  {
+          width: 1300px;
+        }
       }
     }
 
-    &:hover img.present__img--second-slide {
-      right: 80px;
-      width: 1000px;
-      z-index: 2;
 
-      @media (min-width: $screen-lg)  {
-        width: 1300px;
-      }
-    }
   }
 
   &__img {

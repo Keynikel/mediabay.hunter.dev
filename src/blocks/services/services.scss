@@ -17,12 +17,13 @@
     background-repeat: no-repeat;
 
     @media (min-width: $screen-md) {
-      margin-top: 0;
-      padding-top: 77px;
+      margin-top: -450px;
+      padding-top: 530px;
     }
 
     @media (min-width: $screen-lg) {
-      padding-top: 62px;
+      margin-top: -450px;
+      padding-top: 530px;
     }
   }
 
@@ -58,6 +59,10 @@
     margin-bottom: 30px;
     font-size: 14px;
     line-height: 20px;
+
+    @media (min-width: $screen-sm) {
+      max-width: 480px;
+    }
 
     @media (min-width: $screen-md) {
       max-width: 475px;
@@ -105,6 +110,7 @@
     background-color: rgba(204, 204, 204, 0.2);
 
     @media (min-width: $screen-sm) {
+      margin-top: 35px;
       background-image: url('../img/services__list--sm.png');
       background-position: 0 0;
       background-size: contain;

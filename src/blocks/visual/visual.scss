@@ -36,6 +36,7 @@
 
   &__wrapper {
     @media (min-width: $screen-sm) {
+      max-width: 850px;
       display: grid;
       grid-template-columns: 1.37fr 1fr;
       grid-column-gap: 40px;

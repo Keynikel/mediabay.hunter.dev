@@ -12,7 +12,7 @@
   color: #fff;
 
   @media (min-width: $screen-sm) {
-    margin-top: 50px;
+    margin-top: 70px;
   }
 
   @media (min-width: $screen-md) {
@@ -52,9 +52,10 @@
     }
 
     @media (min-width: $screen-md) {
+      top: -135px;
       width: 445px;
-      height: 390px;
-      background-position: 6px -32px;
+      height: 450px;
+      background-position: 0;
     }
 
     @media (min-width: $screen-lg) {
@@ -116,7 +117,7 @@
     @media (min-width: $screen-sm) {
       margin-left: 20px;
       margin-right: 20px;
-      padding: 50px 50px 75px;
+      padding: 55px 50px 70px;
       box-shadow: 0px 4px 40px rgba(41, 25, 86, 0.04);
     }
 
@@ -210,6 +211,10 @@
     font-size: 14px;
     line-height: 20px;
     max-width: 380px;
+
+    @media (min-width: $screen-sm) {
+      max-width: 460px;
+    }
 
     @media (min-width: $screen-md) {
       max-width: 500px;

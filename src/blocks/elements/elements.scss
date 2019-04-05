@@ -13,7 +13,7 @@
 
   @media (min-width: $screen-sm)  {
     margin-top: -80px;
-    margin-bottom: 65px;
+    margin-bottom: 20px;
     background-image: url('../img/elements__back--sm.png');
     background-position: 0 -268px;
   }
@@ -38,6 +38,7 @@
     color: $main-color;
 
     @media (min-width: $screen-sm) {
+      font-size: 36px;
       margin-top: 0;
       margin-bottom: -8px;
     }
@@ -74,6 +75,10 @@
         font-size: 20px;
         z-index: 3;
       }
+    }
+
+    @media (min-width: $screen-sm) {
+      max-width: 380px;
     }
 
     @media (min-width: $screen-md) {
@@ -288,7 +293,7 @@
         transition: 0.5s;
 
         @media (min-width: $screen-sm) {
-          max-height: 420px;
+          max-height: 390px;
         }
 
         @media (min-width: $screen-md) {
@@ -306,7 +311,7 @@
         left: 85px;
         right: unset;
         min-width: 285px;
-        max-width: 83%;
+        max-width: 80%;
       }
 
       @media (min-width: $screen-md) {
@@ -434,7 +439,7 @@
         top: 674px;
         left: unset;
         right: 95px;
-        width: 386px;
+        width: 340px;
       }
 
       @media (min-width: $screen-md) {
