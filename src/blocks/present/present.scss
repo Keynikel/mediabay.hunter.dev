@@ -19,7 +19,7 @@
   }
 
   @media (min-width: $screen-md) {
-    padding-top: 139px;
+    padding-top: 133px;
   }
 
   @media (min-width: $screen-lg) {
@@ -269,7 +269,6 @@
 
       &:hover img.present__img--second-slide {
         right: 80px;
-        width: 1000px;
         z-index: 2;
 
         @media (min-width: $screen-lg)  {

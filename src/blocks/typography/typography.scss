@@ -7,7 +7,12 @@
   $block-name:                &; // #{$block-name}__element
   width: 100%;
 
+  @media (min-width: $screen-md) {
+    max-width: 410px;
+  }
+
   @media (min-width: $screen-lg) {
+    max-width: none;
     width: 83%;
   }
 

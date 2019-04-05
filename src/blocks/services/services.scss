@@ -17,7 +17,7 @@
     background-repeat: no-repeat;
 
     @media (min-width: $screen-md) {
-      margin-top: -450px;
+      margin-top: -520px;
       padding-top: 530px;
     }
 
@@ -111,6 +111,7 @@
 
     @media (min-width: $screen-sm) {
       margin-top: 35px;
+      background-color: transparent;
       background-image: url('../img/services__list--sm.png');
       background-position: 0 0;
       background-size: contain;
