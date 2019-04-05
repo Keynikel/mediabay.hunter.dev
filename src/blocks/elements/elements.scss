@@ -5,7 +5,7 @@
 .elements {
 
   $block-name:                &; // #{$block-name}__element
-  padding: 50px 20px 40px;
+  padding: 50px 20px 20px;
   background-image: url('../img/elements__back.png');
   background-size: cover;
   background-position: center;
@@ -222,7 +222,7 @@
 
 
   &__blocks {
-    height: 700px;
+    height: 645px;
     margin-top: 25px;
 
     @media (min-width: $screen-sm) {
