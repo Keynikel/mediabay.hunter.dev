@@ -8,11 +8,12 @@
   display: none;
 
   @media (min-width: $screen-sm) {
+    position: relative;
     display: block;
-    padding: 52px 20px 0;
+    padding: 52px 20px 47px;
     background-image: url('../img/cooperation__back--sm.png');
     background-size: cover;
-    background-position: 0px -115px;
+    background-position: top;
     background-repeat: no-repeat;
 
     @media (min-width: $screen-md) {

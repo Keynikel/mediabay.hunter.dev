@@ -253,6 +253,11 @@
       left: unset;
       right: 0;
 
+      @media (min-width: $screen-sm) {
+        left: 0;
+        right: unset;
+      }
+
       img {
         max-height: 270px;
 
@@ -297,9 +302,11 @@
       }
 
       @media (min-width: $screen-sm)  {
-        top: 295px;
-        left: 60px;
+        top: 320px;
+        left: 85px;
         right: unset;
+        min-width: 285px;
+        max-width: 83%;
       }
 
       @media (min-width: $screen-md) {
@@ -410,6 +417,10 @@
         max-height: 170px;
         transition: 0.5s;
 
+        @media (min-width: $screen-sm) {
+          max-height: 215px;
+        }
+
         @media (min-width: $screen-md) {
           max-height: 290px;
         }
@@ -420,9 +431,9 @@
       }
 
       @media (min-width: $screen-sm) {
-        top: 653px;
+        top: 674px;
         left: unset;
-        right: 112px;
+        right: 95px;
         width: 386px;
       }
 
@@ -468,9 +479,9 @@
 
       @media (min-width: $screen-sm) {
         top: 867px;
-        left: 380px;
+        left: 383px;
         right: unset;
-        width: 370px;
+        width: 435px;
       }
 
       @media (min-width: $screen-md) {
