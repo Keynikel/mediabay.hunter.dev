@@ -34,25 +34,25 @@
   font-style: italic; }
 
 .chrome {
-  background-image: url(../img/sprite-008964544778269556.png);
+  background-image: url(../img/sprite-08216592248407373.png);
   background-position: 0px -232px;
   width: 64px;
   height: 64px; }
 
 .github-logo {
-  background-image: url(../img/sprite-008964544778269556.png);
+  background-image: url(../img/sprite-08216592248407373.png);
   background-position: -68px -232px;
   width: 64px;
   height: 64px; }
 
 .hunter-logo {
-  background-image: url(../img/sprite-008964544778269556.png);
+  background-image: url(../img/sprite-08216592248407373.png);
   background-position: 0px 0px;
   width: 840px;
   height: 228px; }
 
 .placeholder {
-  background-image: url(../img/sprite-008964544778269556.png);
+  background-image: url(../img/sprite-08216592248407373.png);
   background-position: -136px -232px;
   width: 64px;
   height: 64px; }
@@ -1505,7 +1505,6 @@ img {
       background-size: 100%;
       background-repeat: no-repeat; }
     .visual__wrapper {
-      max-width: 850px;
       display: grid;
       grid-template-columns: 1.37fr 1fr;
       grid-column-gap: 40px;
@@ -1515,13 +1514,14 @@ img {
       -webkit-box-shadow: 0px 4px 40px rgba(41, 25, 86, 0.08);
               box-shadow: 0px 4px 40px rgba(41, 25, 86, 0.08); }
       .visual__title {
+        max-width: 380px;
         grid-column: 1/2;
         grid-row: 1/2;
         margin-bottom: 0;
         font-size: 36px;
         line-height: 1; }
       .visual__lead {
-        max-width: unset;
+        max-width: 380px;
         grid-column: 1/2;
         grid-row: 2/3; }
       .visual__scheme {
@@ -1894,7 +1894,7 @@ img {
         line-height: 50px;
         font-weight: 500; }
       .reflex__lead {
-        max-width: 460px; }
+        max-width: 380px; }
     .cooperation {
       position: relative;
       display: block;
@@ -2039,9 +2039,11 @@ img {
       grid-template-rows: 70px auto;
       padding: 110px 60px 92px 60px; }
       .visual__title {
+        max-width: unset;
         font-size: 40px;
         line-height: 40px; }
       .visual__lead {
+        max-width: unset;
         font-size: 16px;
         line-height: 25px; }
     .elements {
