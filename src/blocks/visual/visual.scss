@@ -7,7 +7,7 @@
   $block-name:                &; // #{$block-name}__element
   position: relative;
   margin-top: 100px; //поднимаем из-за фона
-  margin-bottom: 15px;
+  margin-bottom: 30px;
   padding-left: 20px;
   padding-right: 20px;
 
@@ -88,7 +88,7 @@
   &__lead {
     font-size: 13px;
     line-height: 20px;
-    max-width: 500px;
+    max-width: 380px;
 
     @media (min-width: $screen-sm) {
       max-width: unset;

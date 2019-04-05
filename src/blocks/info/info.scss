@@ -9,7 +9,7 @@
   position: relative;
   padding: 43px 0 100px;
   background-image: url('../img/info__back.png');
-  background-position: 0;
+  background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
 
@@ -65,7 +65,7 @@
     padding-right: 20px;
     font-size: 14px;
     line-height: 20px;
-    max-width: 380px;
+    max-width: 420px;
 
     @media (min-width: $screen-md) {
       margin-left: 220px;
