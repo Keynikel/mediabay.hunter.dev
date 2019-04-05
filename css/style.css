@@ -34,25 +34,25 @@
   font-style: italic; }
 
 .chrome {
-  background-image: url(../img/sprite-08216592248407373.png);
+  background-image: url(../img/sprite-09819484304901778.png);
   background-position: 0px -232px;
   width: 64px;
   height: 64px; }
 
 .github-logo {
-  background-image: url(../img/sprite-08216592248407373.png);
+  background-image: url(../img/sprite-09819484304901778.png);
   background-position: -68px -232px;
   width: 64px;
   height: 64px; }
 
 .hunter-logo {
-  background-image: url(../img/sprite-08216592248407373.png);
+  background-image: url(../img/sprite-09819484304901778.png);
   background-position: 0px 0px;
   width: 840px;
   height: 228px; }
 
 .placeholder {
-  background-image: url(../img/sprite-08216592248407373.png);
+  background-image: url(../img/sprite-09819484304901778.png);
   background-position: -136px -232px;
   width: 64px;
   height: 64px; }
@@ -332,7 +332,7 @@ img {
     margin-bottom: 13px;
     padding-left: 20px;
     padding-right: 20px;
-    font-size: 33px;
+    font-size: 32px;
     line-height: 1.5;
     color: #291956; }
   .about__lead {
@@ -2033,7 +2033,8 @@ img {
       margin-bottom: 0;
       padding-left: 40px;
       padding-right: 40px;
-      padding-bottom: 200px; }
+      padding-bottom: 325px;
+      background-image: url("../img/visual__back--md.png"); }
     .visual__wrapper {
       grid-template-columns: 1fr 1fr;
       grid-template-rows: 70px auto;
@@ -2047,10 +2048,12 @@ img {
         font-size: 16px;
         line-height: 25px; }
     .elements {
+      margin-top: -120px;
       margin-bottom: 0;
       padding-top: 25px;
       padding-left: 40px;
-      padding-right: 40px; }
+      padding-right: 40px;
+      background-image: url("../img/elements__back--sm.png"); }
       .elements__title {
         margin-bottom: 0;
         font-size: 40px;
@@ -2058,12 +2061,13 @@ img {
       .elements__lead {
         max-width: 480px;
         margin-top: 26px;
+        margin-bottom: 38px;
         font-size: 16px;
         line-height: 30px; }
       .elements__cards {
         margin-top: 110px;
         margin-bottom: 50px;
-        height: 625px; }
+        height: 595px; }
         .elements__card img {
           height: 450px; }
         .elements__card--met {
@@ -2074,7 +2078,7 @@ img {
           left: 618px; }
         .elements__card--lrn {
           top: 10px;
-          left: 462px; }
+          left: 500px; }
       .elements__blocks {
         margin-top: 15px;
         height: 1485px; }
@@ -2083,8 +2087,9 @@ img {
           .elements__block--spec img {
             max-height: 510px; }
         .elements__block--spec {
-          top: 485px;
-          left: 90px;
+          top: 510px;
+          left: 120px;
+          max-width: 78%;
           -webkit-transition: 0.5s;
           transition: 0.5s; }
           .elements__block--spec:hover {
@@ -2098,6 +2103,7 @@ img {
             max-height: 465px; }
         .elements__block--rev {
           top: 745px;
+          max-width: 260px;
           -webkit-transition: 0.5s;
           transition: 0.5s; }
           .elements__block--rev:hover {
@@ -2110,13 +2116,14 @@ img {
           .elements__block--mod img {
             max-height: 290px; }
         .elements__block--mod {
-          top: 880px;
-          width: 435px;
+          top: 903px;
+          right: 142px;
+          width: 382px;
           -webkit-transition: 0.5s;
           transition: 0.5s; }
           .elements__block--mod:hover {
             z-index: 3;
-            width: 640px; }
+            width: 480px; }
             .elements__block--mod:hover img {
               -webkit-box-shadow: 0px 4px 40px rgba(41, 25, 86, 0.08);
                       box-shadow: 0px 4px 40px rgba(41, 25, 86, 0.08);
@@ -2126,20 +2133,21 @@ img {
         .elements__block--stat {
           top: 1106px;
           left: 297px;
+          max-width: none;
           width: 565px;
           -webkit-transition: 0.5s;
           transition: 0.5s; }
           .elements__block--stat:hover {
             z-index: 3;
-            width: 700px;
-            top: 1000px;
+            width: 630px;
+            top: 1050px;
             left: 180px; }
             .elements__block--stat:hover img {
               -webkit-box-shadow: 0px 4px 40px rgba(41, 25, 86, 0.08);
                       box-shadow: 0px 4px 40px rgba(41, 25, 86, 0.08);
               max-height: 620px; }
     .devop {
-      padding-top: 9px; }
+      padding-top: 17px; }
       .devop__title {
         margin-bottom: 16px;
         padding-left: 40px;
@@ -2155,7 +2163,7 @@ img {
         line-height: 25px; }
     .adaptive {
       height: 620px;
-      margin-top: 135px;
+      margin-top: 150px;
       padding-top: 59px; }
       .adaptive::after {
         width: 750px;
@@ -2170,7 +2178,7 @@ img {
         z-index: 2; }
       .adaptive__lead {
         max-width: 560px;
-        margin-bottom: 63px;
+        margin-bottom: 40px;
         font-size: 16px;
         line-height: 25px;
         z-index: 2; }
@@ -2214,6 +2222,8 @@ img {
           line-height: 28px; }
       .present__wrapper {
         height: 690px; }
+      .present__wrapper::after {
+        background-image: url(../img/present__styling--md.png); }
         .present__wrapper img {
           top: -197px;
           max-width: 1000px; }
@@ -2229,7 +2239,7 @@ img {
       z-index: 2; }
         .present__img--second-slide {
           right: 40px;
-          top: 238px;
+          top: 180px;
           width: 860px; }
       .services__title {
         margin-bottom: 37px;
@@ -2245,7 +2255,7 @@ img {
         font-size: 16px;
         line-height: 25px; }
       .services__illustrate {
-        margin-bottom: 35px;
+        margin-bottom: 50px;
         padding-left: 40px;
         padding-right: 40px; }
       .services__list {
@@ -2260,15 +2270,16 @@ img {
     .result {
       padding-left: 40px;
       padding-right: 40px;
-      padding-bottom: 320px; }
+      padding-bottom: 85px; }
       .result::before {
-        top: 155px;
+        top: 80px;
+        right: 40px;
         width: 350px;
         height: 350px;
         background-position: 0 0; }
       .result::after {
         left: 540px;
-        top: 115px; }
+        top: 38px; }
       .result__title {
         margin-bottom: 21px;
         font-size: 40px; }
@@ -2279,7 +2290,7 @@ img {
         line-height: 25px; }
         .result__lead::after {
           left: 513px;
-          bottom: 321px; }
+          bottom: 85px; }
     .contacts {
       grid-template-columns: 53% 36%;
       grid-column-gap: 100px;
