@@ -34,25 +34,25 @@
   font-style: italic; }
 
 .chrome {
-  background-image: url(../img/sprite-01951696633743787.png);
+  background-image: url(../img/sprite-08987961839993721.png);
   background-position: 0px -232px;
   width: 64px;
   height: 64px; }
 
 .github-logo {
-  background-image: url(../img/sprite-01951696633743787.png);
+  background-image: url(../img/sprite-08987961839993721.png);
   background-position: -68px -232px;
   width: 64px;
   height: 64px; }
 
 .hunter-logo {
-  background-image: url(../img/sprite-01951696633743787.png);
+  background-image: url(../img/sprite-08987961839993721.png);
   background-position: 0px 0px;
   width: 840px;
   height: 228px; }
 
 .placeholder {
-  background-image: url(../img/sprite-01951696633743787.png);
+  background-image: url(../img/sprite-08987961839993721.png);
   background-position: -136px -232px;
   width: 64px;
   height: 64px; }
@@ -370,7 +370,7 @@ img {
     max-width: 350px; }
 
 .elements {
-  padding: 50px 20px 20px;
+  padding: 40px 20px 20px;
   background-image: url("../img/elements__back.png");
   background-size: cover;
   background-position: center;
@@ -431,7 +431,7 @@ img {
       top: 360px;
       left: 0; }
   .elements__blocks {
-    height: 645px;
+    height: 635px;
     margin-top: 25px; }
   .elements__block {
     position: absolute;
@@ -491,7 +491,7 @@ img {
 
 .devop {
   margin-top: -10px;
-  padding: 40px 0 0; }
+  padding: 30px 0 0; }
   .devop__title {
     margin-bottom: 13px;
     padding-left: 20px;
@@ -509,7 +509,7 @@ img {
 
 .adaptive {
   position: relative;
-  margin-top: 78px; }
+  margin-top: 68px; }
   .adaptive::after {
     content: '';
     content: '';
