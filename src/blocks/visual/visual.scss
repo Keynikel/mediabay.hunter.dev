@@ -36,7 +36,6 @@
 
   &__wrapper {
     @media (min-width: $screen-sm) {
-      max-width: 850px;
       display: grid;
       grid-template-columns: 1.37fr 1fr;
       grid-column-gap: 40px;
@@ -68,6 +67,7 @@
     color: $main-color;
 
     @media (min-width: $screen-sm) {
+      max-width: 380px;
       grid-column: 1/2;
       grid-row: 1/2;
       margin-bottom: 0;
@@ -76,6 +76,7 @@
     }
 
     @media (min-width: $screen-md) {
+      max-width: unset;
       font-size: 40px;
       line-height: 40px;
     }
@@ -92,12 +93,13 @@
     max-width: 380px;
 
     @media (min-width: $screen-sm) {
-      max-width: unset;
+      max-width: 380px;
       grid-column: 1/2;
       grid-row: 2/3;
     }
 
     @media (min-width: $screen-md)  {
+      max-width: unset;
       font-size: 16px;
       line-height: 25px;
     }
