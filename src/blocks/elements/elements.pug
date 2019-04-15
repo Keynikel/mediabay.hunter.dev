@@ -15,12 +15,12 @@ mixin elements()
     ul.elements__blocks
       li.elements__block.elements__block--test
         picture
-             //source(media='(min-width: 1440px)' srcset='img/main-slider-1--lg.webp' type='image/webp' )
-             source(media='(min-width: 1440px)' srcset='img/block__0--lg.png' )
-             //source(media='(min-width: 768px)' srcset='img/main-slider-1--sm.webp' type='image/webp' )
+             source(media='(min-width: 1440px)' srcset='img/block__0--lg.webp' type='image/webp' )
+             source(media='(min-width: 1440px)' srcset='img/block__0--lg.jpg' )
+             source(media='(min-width: 768px)' srcset='img/block__0--md.webp' type='image/webp' )
              source(media='(min-width: 768px)' srcset='img/block__0--md.jpg' )
-             //source(srcset='img/main-slider-1--xs.webp' type='image/webp')
-             img.elemens__img(src='img/block__0.png' alt="Тестируем уязвимости")
+             source(srcset='img/block__0.webp' type='image/webp')
+             img.elemens__img(src='img/block__0.jpg' alt="Тестируем уязвимости")
       li.elements__block.elements__block--spec
         img.elemens__img(src="img/block__1.png", alt="Пригласить специалиста")
       li.elements__block.elements__block--rev
@@ -32,7 +32,7 @@ mixin elements()
              //source(media='(min-width: 1000px)' srcset='img/main-slider-1--md.webp' type='image/webp' )
              //source(media='(min-width: 1000px)' srcset='img/main-slider-1--md.jpg' )
              //source(media='(min-width: 768px)' srcset='img/main-slider-1--sm.webp' type='image/webp' )
-             source(media='(min-width: 768px)' srcset='img/block__3--md.png' )
+             //source(media='(min-width: 768px)' srcset='img/block__3--md.png' )
              //source(srcset='img/main-slider-1--xs.webp' type='image/webp')
              img.elemens__img(src='img/block__3.png' alt="Модальное окно")
       li.elements__block.elements__block--stat

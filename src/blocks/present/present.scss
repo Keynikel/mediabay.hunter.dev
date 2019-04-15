@@ -23,7 +23,7 @@
   }
 
   @media (min-width: $screen-lg) {
-    padding-top: 307px;
+    padding-top: 225px;
   }
 
   &__title {
@@ -49,11 +49,13 @@
     }
 
     @media (min-width: $screen-lg) {
+      position: relative;
       margin-bottom: 30px;
       padding-left: 100px;
       padding-right: 100px;
       font-size: 50px;
       line-height: 50px;
+      z-index: 1;
     }
   }
 
@@ -224,8 +226,8 @@
       }
 
       @media (min-width: $screen-lg) {
-        top: -239px;
-        max-width: 1300px;
+        top: -259px;
+      max-width: 1360px;
       }
     }
   }
@@ -250,7 +252,8 @@
     }
 
     @media (min-width: $screen-lg) {
-      height: 1200px;
+      height: 1185px;
+          margin-top: 52px;
       margin-left: 100px;
     }
   }
