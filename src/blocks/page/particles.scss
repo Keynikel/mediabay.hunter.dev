@@ -62,3 +62,19 @@
     }
   }
 }
+
+#particles-elements {
+  display: none;
+
+  @media (min-width: $screen-md) {
+    display: block;
+    width: 35%;
+    height: 35%;
+    border-radius: 50%;
+    background-color: transparent;
+    position: absolute;
+    top: 25%;
+    right: 0;
+    z-index: 0;
+  }
+}

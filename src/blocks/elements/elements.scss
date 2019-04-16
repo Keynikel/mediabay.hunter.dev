@@ -19,14 +19,29 @@
   }
 
   @media (min-width: $screen-md) {
+    position: relative;
     margin-top: -175px;
     margin-bottom: 0;
     padding-top: 25px;
     padding-left: 40px;
     padding-right: 40px;
-    background-image: url('../img/elements__back--md.png');
+    //background-image: url('../img/elements__back--md.png');
+    background-image: url('../img/elements__back2.png');
     background-size: 100% 2500px;
-    background-position: 0 175px;
+    background-position: 0 165px;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 19%;
+      right: 0;
+      width: 50%;
+      height: 50%;
+      background-image: url(../img/about__dots.png);
+      background-size: cover;
+      background-position: 0 50%;
+      background-repeat: no-repeat;
+    }
   }
 
   @media (min-width: $screen-lg) {
